@@ -21,7 +21,7 @@ export function TaskList() {
     }
 
     const task = {
-      id: tasks.length + 1,
+      id: String(Math.random()),
       title: newTaskTitle,
       isComplete: false,
     }
